@@ -1,6 +1,6 @@
 # Compreendendo o Básico de Redes e Anti-Cheat no MTA:SA
 
-## 🚨 Important Note
+## 🚨 Nota Importante
 **Apenas educacional** – esse post é para fins de aprendizado e compartilhamento de conceitos, não para vazar dados sensíveis ou incentivar trapaças em servidores oficiais.
 
 **Objetivo Principal** – para ajudar os entusiastas a aprimorar suas habilidades em rede e segurança de jogos.
