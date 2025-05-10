@@ -195,3 +195,4 @@ Esta seção é apenas para fins de conscientização. Não incentivamos trapaç
 -----
 
 Discord Server: https://discord.gg/rntpdB4aqJ
+Creditos: https://github.com/devilmare/mtasa-netc-reversing/
