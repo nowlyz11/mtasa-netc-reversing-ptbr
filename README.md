@@ -138,8 +138,7 @@ Rebuild: O jogo executa o mesmo comando para reconfigurar um serial com funçõe
 
 Server-Side Check: Ao se conectar, o servidor recalcula e verifica seu serial, possivelmente bloqueando as incompatibilidades.
 
-6. Perguntas Frequentes & Contos de Precaução
-
+## 6. Perguntas Frequentes & Contos de Precaução
 P1: Posso simplesmente alterar as informações do meu hardware para falsificar o serial?
 R: Tecnicamente sim — editar o registro, MachineGuid e algumas informações como rede, etc., mas você vai quebrar seu PC, talvez você seja investigado por outros jogos e arriscar corromper o Windows, e ainda ser banido pelo anti-cheat global.
 
@@ -151,7 +150,7 @@ R: Extremamente difícil. Você precisaria bloquear todas as verificações de s
 
 P4: sem mais perguntas...?
 
-7. Contornando os Mecanismos Anti-Cheat
+## 7. Contornando os Mecanismos Anti-Cheat
 Como mencionei no início do artigo, o sistema de segurança do MTA:SA opera em duas camadas: uma no Modo Kernel e outra no Modo Usuário. Decifrar todo o código requer um esforço semelhante a tentar entender um texto de filosofia às 3 da manhã.
 
 No entanto, para fins puramente educacionais, discutiremos teoricamente como contornar algumas das proteções, sem mencionar métodos de implementação, é claro:
