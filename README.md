@@ -1,13 +1,13 @@
 # Compreendendo o Básico de Redes e Anti-Cheat no MTA:SA
 
 ## 🚨 Important Note
-**Educational Only** – esse post é para fins de aprendizado e compartilhamento de conceitos, não para vazar dados sensíveis ou incentivar trapaças em servidores oficiais.
+**Apenas educacional** – esse post é para fins de aprendizado e compartilhamento de conceitos, não para vazar dados sensíveis ou incentivar trapaças em servidores oficiais.
 
-**Main Goal** – para ajudar os entusiastas a aprimorar suas habilidades em rede e segurança de jogos.
+**Objetivo Principal** – para ajudar os entusiastas a aprimorar suas habilidades em rede e segurança de jogos.
 
-**No Liability** – Não sou responsável por banimentos, erros ou incidentes do tipo "seu computador pegou fogo". Os jogos têm regras e penalidades rigorosas.
+**Sem Responsabilidade** – Não sou responsável por banimentos, erros ou incidentes do tipo "seu computador pegou fogo". Os jogos têm regras e penalidades rigorosas.
 
-**Be Nice & Sweet ❤️** – use esse conhecimento para caçar bugs, crescer pessoalmente e ajudar a comunidade—não para estragar servidores ou queimar sua própria reputação.
+**Seja gentil e doce. ❤️** – use esse conhecimento para caçar bugs, crescer pessoalmente e ajudar a comunidade—não para estragar servidores ou queimar sua própria reputação.
 
 ## 1. O Componente Principal: netc.dll no Lado do Cliente
 netc.dll é o coração da rede do MTA:SA e do sistema anti-trapaça. Ele conecta os seguintes componentes:
