@@ -136,61 +136,61 @@ Rebuild: O jogo executa o mesmo comando para reconfigurar um serial com funçõe
 
 Server-Side Check: Ao se conectar, o servidor recalcula e verifica seu serial, possivelmente bloqueando as incompatibilidades.
 
-## 6. FAQs & Cautionary Tales
-Q1: Can I just change my hardware info to spoof the serial?
-A: Technically yes—edit registry, MachineGuid, and some information like network, etc., but you’ll break your PC, maybe you’ll get probed with other games and risk corrupting Windows, and still get banned by global anti-cheat.
+6. Perguntas Frequentes & Contos de Precaução
+P1: Posso simplesmente alterar as informações do meu hardware para falsificar o serial?
+R: Tecnicamente sim — editar o registro, MachineGuid e algumas informações como rede, etc., mas você vai quebrar seu PC, talvez você seja investigado por outros jogos e arriscar corromper o Windows, e ainda ser banido pelo anti-cheat global.
 
-Q2: Can I use someone else’s serial?
-A: MTA:SA servers generally blacklist duplicates. Some private servers allow it, but that’s up to server admins to tamper with mtaserver.conf.
+P2: Posso usar o serial de outra pessoa?
+R: Servidores MTA:SA geralmente colocam duplicatas na lista negra. Alguns servidores privados permitem, mas isso depende dos administradores do servidor alterarem o arquivo mtaserver.conf.
 
-Q3: Can I bypass a global ban?
-A: Extremely difficult. You’d need to block every outbound check to official servers, wipe cached files/traces/crashs, spoof network fingerprints… and still risk blacklisting.
+P3: Posso contornar um banimento global?
+R: Extremamente difícil. Você precisaria bloquear todas as verificações de saída para servidores oficiais, limpar arquivos em cache/rastros/travamentos, falsificar impressões digitais de rede… e ainda arriscar ser colocado na lista negra.
 
-Q4: no more questions...?
+P4: sem mais perguntas...?
 
-## 7. Bypassing the Anti-Cheat Mechanisms
-As I mentioned at the beginning of the article, MTA:SA's security system operates in two layers: one in Kernel Mode and the other in User Mode. Deciphering the entire code requires an effort similar to trying to understand a philosophy text at 3 a.m.
+7. Contornando os Mecanismos Anti-Cheat
+Como mencionei no início do artigo, o sistema de segurança do MTA:SA opera em duas camadas: uma no Modo Kernel e outra no Modo Usuário. Decifrar todo o código requer um esforço semelhante a tentar entender um texto de filosofia às 3 da manhã.
 
-However, for purely educational purposes, we will discuss theoretically how to bypass some of the protections, without mentioning implementation methods, of course:
+No entanto, para fins puramente educacionais, discutiremos teoricamente como contornar algumas das proteções, sem mencionar métodos de implementação, é claro:
 
-🧱 First: Suppressing the Reports
-All reports that the game sends to the central servers must be suppressed.
+🧱 Primeiro: Suprimindo os Relatórios
+Todos os relatórios que o jogo envia para os servidores centrais devem ser suprimidos.
 
-This is often done by intercepting communications or modifying transmission points, preventing the detection of your cheating.
+Isso geralmente é feito interceptando comunicações ou modificando pontos de transmissão, impedindo a detecção da sua trapaça.
 
-These reports may include sensitive information such as memory activity, suspicious processes, and tamper logs.
+Esses relatórios podem incluir informações sensíveis como atividade de memória, processos suspeitos e registros de adulteração.
 
-🕵️ ♂️ Second: Blocking Internal Tracking
-The game uses "spy" functions that:
+🕵️ ♂️ Segundo: Bloqueando o Rastreamento Interno
+O jogo usa funções "espiãs" que:
 
-Read RAM.
+Leem a RAM.
 
-Process Scanning.
+Escaneiam processos.
 
-It might even read the contents of your CD-ROM or your personal folders (I swear, even if it's spyware).
+Pode até ler o conteúdo do seu CD-ROM ou suas pastas pessoais (juro, mesmo que seja spyware).
 
-The game is illegal. What's stopping it from spying? xd
+O jogo é ilegal. O que o impede de espionar? xd
 
-🔧 Third: Hooking & Patch Points
-Many security functions rely on one or more central functions.
+🔧 Terceiro: Pontos de Hooking & Patching
+Muitas funções de segurança dependem de uma ou mais funções centrais.
 
-If you can track these functions, they can be hooked or even temporarily disabled.
+Se você conseguir rastrear essas funções, elas podem ser "hookadas" ou até mesmo desabilitadas temporariamente.
 
-But beware! A simple change to these functions could result in:
+Mas cuidado! Uma simples alteração nessas funções pode resultar em:
 
-Direct expulsion from the server.
+Expulsão direta do servidor.
 
-Or even a permanent ban (blacklisted faster than your ex blocks you).
+Ou até mesmo um banimento permanente (colocado na lista negra mais rápido do que sua ex te bloqueia).
 
-🧠 Important Note:
-Don't be fooled! Security isn't naive. There are hidden layers, advanced encryption, and behavioral monitoring, not just memory monitoring.
+🧠 Nota Importante:
+Não se engane! A segurança não é ingênua. Existem camadas ocultas, criptografia avançada e monitoramento comportamental, não apenas monitoramento de memória.
 
-A successful attack requires a very deep understanding of the game's structure and how it works. "It's not a copy-paste crack and that's it." 😒
+Um ataque bem-sucedido requer um entendimento muito profundo da estrutura do jogo e de como ele funciona. "Não é um crack de copiar e colar e pronto." 😒
 
-⚠️ Final Warning:
-This section is for awareness purposes only. We do not encourage cheating or manipulation in games. Respecting the rules of the game and the community is always better than being banned and blacklisted.
+⚠️ Aviso Final:
+Esta seção é apenas para fins de conscientização. Não incentivamos trapaças ou manipulação em jogos. Respeitar as regras do jogo e da comunidade é sempre melhor do que ser banido e colocado na lista negra.
 
-"Be an ethical hacker, not a cartoon hacker." 😎
+"Seja um hacker ético, não um hacker de desenho animado." 😎
 
 -----
 
