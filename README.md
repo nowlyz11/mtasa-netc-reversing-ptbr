@@ -140,12 +140,15 @@ Server-Side Check: Ao se conectar, o servidor recalcula e verifica seu serial, p
 
 ## 6. Perguntas Frequentes & Contos de Precaução
 P1: Posso simplesmente alterar as informações do meu hardware para falsificar o serial?
+
 R: Tecnicamente sim — editar o registro, MachineGuid e algumas informações como rede, etc., mas você vai quebrar seu PC, talvez você seja investigado por outros jogos e arriscar corromper o Windows, e ainda ser banido pelo anti-cheat global.
 
 P2: Posso usar o serial de outra pessoa?
+
 R: Servidores MTA:SA geralmente colocam duplicatas na lista negra. Alguns servidores privados permitem, mas isso depende dos administradores do servidor alterarem o arquivo mtaserver.conf.
 
 P3: Posso contornar um banimento global?
+
 R: Extremamente difícil. Você precisaria bloquear todas as verificações de saída para servidores oficiais, limpar arquivos em cache/rastros/travamentos, falsificar impressões digitais de rede… e ainda arriscar ser colocado na lista negra.
 
 P4: sem mais perguntas...?
