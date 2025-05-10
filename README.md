@@ -84,7 +84,9 @@ MTA:SA usa um RakNet bem modificado por trás das câmeras—então não espere 
 4.1. Inicialização: CNet::StartNetwork
 
 https://prnt.sc/t1FlddTFB_qZ
+
 https://prnt.sc/gf155L9B4xGu
+
 https://prnt.sc/h4LOnzaGAE1P
 
 Converte o endereço do servidor em uma string usando inet_addr
@@ -195,4 +197,5 @@ Esta seção é apenas para fins de conscientização. Não incentivamos trapaç
 -----
 
 Discord Server: https://discord.gg/rntpdB4aqJ
+
 Creditos: https://github.com/devilmare/mtasa-netc-reversing/
